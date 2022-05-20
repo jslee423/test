@@ -1,6 +1,6 @@
 // CODE TO OUTPUT CONSOLE TEXT ON HOMEPAGE
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['jason lee', 'full stack developer', 'philadelphia, pa'], 'text',['white']);
+consoleText(['jason lee', 'philadelphia, pa'], 'text',['white']);
 
 function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
